@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubApp1", "SubApp1\SubApp1.csproj", "{8E80CEE1-98DF-4230-99E1-DDC990CDF217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubApp", "PubApp\PubApp.csproj", "{AFDEF695-114D-46F5-804D-EE3830CE6524}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActiveMQ.Connection", "ActiveMQ.Connection\ActiveMQ.Connection.csproj", "{4901476D-6832-4F9F-82B0-67F697B98127}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E80CEE1-98DF-4230-99E1-DDC990CDF217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E80CEE1-98DF-4230-99E1-DDC990CDF217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E80CEE1-98DF-4230-99E1-DDC990CDF217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E80CEE1-98DF-4230-99E1-DDC990CDF217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFDEF695-114D-46F5-804D-EE3830CE6524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFDEF695-114D-46F5-804D-EE3830CE6524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFDEF695-114D-46F5-804D-EE3830CE6524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFDEF695-114D-46F5-804D-EE3830CE6524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4901476D-6832-4F9F-82B0-67F697B98127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4901476D-6832-4F9F-82B0-67F697B98127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4901476D-6832-4F9F-82B0-67F697B98127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4901476D-6832-4F9F-82B0-67F697B98127}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1536D7C3-200D-440D-9AC9-85B542B6560A}
+	EndGlobalSection
+EndGlobal
