@@ -14,7 +14,7 @@ namespace ListenerConsole
             try
             {
                 Console.WriteLine("Waiting for messages");
-              
+
                 IConnectionFactory connectionFactory = EIPBusConnection.CreateOrGetConnection(new Uri("activemq:tcp://localhost:61616"));
                 IConnection connection = connectionFactory.CreateConnection("admin", "admin");
                 connection.Start();
@@ -22,7 +22,7 @@ namespace ListenerConsole
                 IDestination dest = session.GetQueue("DemoQueue");
                 IMessageConsumer consumer = session.CreateConsumer(dest);
                 // Read all messages off the queue
-                while (ReadNextMessageQueue(session,consumer))
+                while (ReadNextMessageQueue(session, consumer))
                 {
                     Console.WriteLine("Successfully read message");
                 }
@@ -46,7 +46,7 @@ namespace ListenerConsole
             {
                 ITextMessage txtMsg = msg as ITextMessage;
                 string body = txtMsg.Text;
-                
+                //Console.WriteLine(txtMsg.ToString());
                 Console.WriteLine($"Received message: {txtMsg.Text} for work order {txtMsg.Properties["NMSXGroupID"].ToString()}");
 
                 return true;

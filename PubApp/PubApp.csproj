@@ -34,8 +34,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Apache.NMS.ActiveMQ.NetStd, Version=1.7.2.4114, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Apache.NMS.ActiveMQ.NetStd.1.7.2.4114\lib\netstandard2.0\Apache.NMS.ActiveMQ.NetStd.dll</HintPath>
+    </Reference>
     <Reference Include="Apache.NMS.NetStd, Version=1.7.1.3898, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Apache.NMS.NetStd.1.7.1.3898\lib\netstandard2.0\Apache.NMS.NetStd.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zlib.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ionic.Zlib.Core.1.0.0\lib\netstandard2.0\Ionic.Zlib.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

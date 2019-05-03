@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubApp", "PubApp\PubApp.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActiveMQ.Connection", "ActiveMQ.Connection\ActiveMQ.Connection.csproj", "{4901476D-6832-4F9F-82B0-67F697B98127}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubApp2", "SubApp2\SubApp2.csproj", "{F6006890-6403-40EA-839E-CD6CFB77DE43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4901476D-6832-4F9F-82B0-67F697B98127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4901476D-6832-4F9F-82B0-67F697B98127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4901476D-6832-4F9F-82B0-67F697B98127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6006890-6403-40EA-839E-CD6CFB77DE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6006890-6403-40EA-839E-CD6CFB77DE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6006890-6403-40EA-839E-CD6CFB77DE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6006890-6403-40EA-839E-CD6CFB77DE43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

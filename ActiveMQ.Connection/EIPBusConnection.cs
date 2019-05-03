@@ -16,8 +16,6 @@ namespace ActiveMQ.Connection
             connectionFactory = new NMSConnectionFactory(connectionUri);
             if (connectionFactory.BrokerUri.OriginalString != connectionUri.LocalPath)
                 connectionFactory = new NMSConnectionFactory(connectionUri);
-
-
             return connectionFactory;
         }
     }
